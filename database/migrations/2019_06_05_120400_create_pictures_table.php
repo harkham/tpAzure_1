@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class PUB extends Migration
+class CreatePicturesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,12 +12,10 @@ class PUB extends Migration
      * @return void
      */
     public function up()
-    { 
-        Schema::create('pub', function (Blueprint $table) {
+    {
+        Schema::create('pictures', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
-            $table->string('price');
-            $table->string('url');
+            $table->timestamps();
         });
     }
 
@@ -28,6 +26,6 @@ class PUB extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('pictures');
     }
 }

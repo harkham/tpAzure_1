@@ -14,9 +14,10 @@
 Route::get('/ex1', function(){
     return view('ex1');
 });
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/pub/ajouter_une_image', 'ex1');
-Route::post('/pub/post', 'pubController@create');
+Route::view('/article/ajouter_un_article', 'article_edit');
+Route::post('/article/store', 'ArticleController@store');

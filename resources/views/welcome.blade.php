@@ -81,11 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    PushUrPicture
+                    PushUrP!c
                 </div>
 
                 <div class="links">
-                    <a href="/pub/ajouter_une_image">Ajouter une image</a>
+                    <a href="/article/ajouter_un_article">Ajouter un article</a>
                 </div>
             </div>
         </div>
