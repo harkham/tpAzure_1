@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/04d7a3e2-54ac-4773-a7b1-085df2706891/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/PushUrPicture",
+    "appService.deploySubpath": ""
+}
